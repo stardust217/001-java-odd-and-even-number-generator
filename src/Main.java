@@ -3,7 +3,7 @@ import java.util.Scanner;
 public class Main {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
-        System.out.println("type odd or even :");
+        System.out.println("type odd or even");
         String input = scanner.next();
         while(true) {
             if (input.equalsIgnoreCase("even")) {
